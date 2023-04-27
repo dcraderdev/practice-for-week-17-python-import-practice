@@ -1,3 +1,15 @@
+# import home as homeActions
+
+from home.chores import doDishes, takeOutTrash, sweepFloors
+from home.cook import washVegetables, chopMeat
+from home.leisure import playGames, petDog, readBook, takeNap
+from office.idle import chill, getWater, useSocialMedia
+from office.work import code, attendMeeting, updateSchedule
+
+
+# print(homeActions.chores.doDishes)
+
+
 def morningMenu():
   print("Starting the day off...")
   while True:
@@ -56,7 +68,7 @@ def slackOffMenu():
     )
     choice = input("> ")
     if choice == "1":
-      chat()
+      chill()
     elif choice == "2":
       getWater()
     elif choice == "3":
