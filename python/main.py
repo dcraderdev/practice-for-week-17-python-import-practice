@@ -2,7 +2,8 @@
 
 from home.chores import doDishes, takeOutTrash, sweepFloors
 from home.cook import washVegetables, chopMeat
-from home.leisure import playGames, petDog, readBook, takeNap
+from home.leisure import *
+# from home.leisure import playGames, petDog, readBook, takeNap
 from office.idle import chill, getWater, useSocialMedia
 from office.work import code, attendMeeting, updateSchedule
 
